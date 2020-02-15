@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="model.BillLinesEntity" table="bill_lines" schema="shop">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="billId">
+            <column name="bill_id" sql-type="int(11)"/>
+        </property>
+        <property name="productId">
+            <column name="product_id" sql-type="int(11)"/>
+        </property>
+        <property name="units">
+            <column name="units" sql-type="int(11)"/>
+        </property>
+    </class>
+</hibernate-mapping>

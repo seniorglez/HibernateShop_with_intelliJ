@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/shop</property>
+    <property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
+    <property name="hibernate.connection.username">shopadmin</property>
+    <property name="hibernate.connection.password">shop</property>
+    <mapping resource="BillLinesEntity.hbm.xml"/>
+    <mapping class="model.BillLinesEntity"/>
+    <mapping resource="BillsEntity.hbm.xml"/>
+    <mapping class="model.BillsEntity"/>
+    <mapping resource="CustomersEntity.hbm.xml"/>
+    <mapping class="model.CustomersEntity"/>
+    <mapping class="model.ProductsEntity"/>
+    <mapping resource="ProductsEntity.hbm.xml"/>
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

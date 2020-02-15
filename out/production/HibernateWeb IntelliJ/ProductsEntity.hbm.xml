@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="model.ProductsEntity" table="products" schema="shop">
+        <id name="idProduct">
+            <column name="idProduct" sql-type="int(11)"/>
+        </id>
+        <property name="description">
+            <column name="description" sql-type="varchar(40)" length="40"/>
+        </property>
+        <property name="price">
+            <column name="price" sql-type="float(7,2)" precision="7" scale="2"/>
+        </property>
+    </class>
+</hibernate-mapping>
