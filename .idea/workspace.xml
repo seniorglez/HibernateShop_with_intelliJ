@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HibernateWeb IntelliJ:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32391b1c-96b4-47fc-9f27-8ea01a045871" name="Default Changelist" comment="" />
+    <list default="true" id="32391b1c-96b4-47fc-9f27-8ea01a045871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateWeb IntelliJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateWeb IntelliJ.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +44,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1XrTRcEzyyhTiQdsc9MztUAkIzv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,9 +65,10 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="JPA.DatabaseSchemaImportDialog" value="31d93529-4025-4874-abb6-d9a8d1fb8a41" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mariadb-java-client-2.5.4.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +83,9 @@
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/model" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,6 +164,28 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -148,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581803206878</updated>
-      <workItem from="1581803209483" duration="2435000" />
+      <workItem from="1581803209483" duration="4513000" />
     </task>
     <servers />
   </component>
@@ -176,6 +224,54 @@
       <screen x="0" y="18" width="1920" height="1062" />
     </state>
     <state x="746" y="329" key="FileChooserDialogImpl/0.18.1920.1062@0.18.1920.1062" timestamp="1581805594554" />
+    <state width="1291" height="282" key="GridCell.Tab.0.bottom" timestamp="1581807034852">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.0.bottom/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034852" />
+    <state width="1291" height="282" key="GridCell.Tab.0.center" timestamp="1581807034851">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.0.center/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034851" />
+    <state width="1291" height="282" key="GridCell.Tab.0.left" timestamp="1581807034851">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.0.left/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034851" />
+    <state width="1291" height="282" key="GridCell.Tab.0.right" timestamp="1581807034852">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.0.right/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034852" />
+    <state width="1291" height="282" key="GridCell.Tab.1.bottom" timestamp="1581807034728">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.1.bottom/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034728" />
+    <state width="1291" height="282" key="GridCell.Tab.1.center" timestamp="1581807034727">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.1.center/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034727" />
+    <state width="1291" height="282" key="GridCell.Tab.1.left" timestamp="1581807034727">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.1.left/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034727" />
+    <state width="1291" height="282" key="GridCell.Tab.1.right" timestamp="1581807034727">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.1.right/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034727" />
+    <state width="1291" height="282" key="GridCell.Tab.2.bottom" timestamp="1581807034729">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.2.bottom/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034729" />
+    <state width="1291" height="282" key="GridCell.Tab.2.center" timestamp="1581807034728">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.2.center/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034728" />
+    <state width="1291" height="282" key="GridCell.Tab.2.left" timestamp="1581807034728">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.2.left/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034728" />
+    <state width="1291" height="282" key="GridCell.Tab.2.right" timestamp="1581807034729">
+      <screen x="0" y="18" width="1920" height="1062" />
+    </state>
+    <state width="1291" height="282" key="GridCell.Tab.2.right/0.18.1920.1062@0.18.1920.1062" timestamp="1581807034729" />
     <state x="446" y="110" key="SettingsEditor" timestamp="1581805381163">
       <screen x="0" y="18" width="1920" height="1062" />
     </state>
