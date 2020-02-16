@@ -4,28 +4,29 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 public class UtilHibernate {
-	private static SessionFactory sessionFactory=null;
 
-	
-	public static SessionFactory getSessionFactory() {
-		if (sessionFactory==null)
+
+
+		private static final SessionFactory ourSessionFactory;
+
+		static {
 			try {
-				File cfg = new File("sessionFactory.xml");
-				  BufferedReader br = new BufferedReader(new FileReader(cfg)); 
-				  System.out.println("---------------Loading hibernate.cfg.xml---------------");
-				  String st; 
-				  while ((st = br.readLine()) != null) System.out.println(st); 
-				 br.close();
-				sessionFactory=new Configuration().configure(cfg).buildSessionFactory();
-			} catch (Exception e) {//get ,getClassLoader
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		return sessionFactory;
-	}
+				Configuration configuration = new Configuration();
+				configuration.configure();
 
+				ourSessionFactory = configuration.buildSessionFactory();
+			} catch (Throwable ex) {
+				throw new ExceptionInInitializerError(ex);
+			}
+		}
+
+		public static Session getSession() throws HibernateException {
+			return ourSessionFactory.openSession();
+		}
 }

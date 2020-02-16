@@ -54,4 +54,9 @@ public class ProductsEntity {
     public int hashCode() {
         return Objects.hash(idProduct, description, price);
     }
+
+    @Override
+    public String toString() {
+        return description +" - "+ price + " €";
+    }
 }

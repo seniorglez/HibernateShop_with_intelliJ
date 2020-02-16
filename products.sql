@@ -1,0 +1,16 @@
+insert into products(description, price) values ('PS6',50000.50);
+insert into products(description, price) values ('Calcetines Wild Style',20.50);
+insert into products(description, price) values ('RTX 20√32',1500.50);
+insert into products(description, price) values ('Cantar de mio Jordi Wild',50);
+insert into products(description, price) values ('Satisfier',50);
+insert into products(description, price) values ('Iphone de 3 mano',900.99);
+insert into products(description, price) values ('ak-47',150.55);
+insert into products(description, price) values ('i11-111100KI',789.77);
+insert into products(description, price) values ('Camiseta Vegeta777',30);
+insert into products(description, price) values ('Disco de Amaral',15);
+insert into products(description, price) values ('La caja',99999);
+insert into products(description, price) values ('Llave counter',2.50);
+insert into products(description, price) values ('Como vender tu alma, economía para niños',69);
+insert into products(description, price) values ('El Lenguaje de Programacion C',50);
+insert into products(description, price) values ('Foto firmada por el RublosOMG',80000);
+insert into products(description, price) values ('El Final de One Piece',99999);
