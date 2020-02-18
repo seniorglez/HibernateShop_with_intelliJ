@@ -133,7 +133,7 @@ If you have download the tar.gz version execute this commands to extract it and 
 
 ```
 
-Now we need to change the file permissions under the directory bin to allow Eclipse to execute Tomcat
+Now we need to change the file permissions under the directory bin to allow Tomcat execution.
 
 ```bash
 
